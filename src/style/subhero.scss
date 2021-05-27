@@ -1,0 +1,22 @@
+@import './App.scss';
+.subhero {
+    background: #ededed;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    .subhero-content {
+        text-align: center;
+        animation: ImageOpacity 1s linear;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-duration: 1s;
+        @media only screen and (max-width: 768px) {
+            margin-bottom: 20px;
+        }
+    }
+    .subhero-img {
+        width: 80px;
+    }
+    .description {
+        margin-top: 5px;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,70 @@
+@import './App.scss';
+
+.profile {
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    .image-wrapper {
+        text-align: center;
+        .profile-img {
+            max-width: 100%;
+            max-height: 350px;
+            border-radius: 50%;
+        }
+    }
+    .about-content-container {
+      display: flex;
+      align-items: center;
+    }
+    .about-content-wrapper {
+      @media only screen and (max-width: 768px) {
+        .name {
+          margin-top: 30px;
+        }
+      }
+      .title {
+        font-size: 20px;
+      }
+    }
+    .profile-favicon {
+        padding-top: 16px;
+    }
+    .description {
+        margin-top: 1rem;
+    }
+    .github, .linkedin, .email {
+        display: inline;
+        margin-right: 15px;
+        color: white;
+    }
+    .icon{
+        &:hover{
+          text-decoration: none;
+        }
+        .fa-github{
+          -webkit-transform: scale(0.8);
+          -webkit-transition-duration: 0.5s;
+          &:hover{
+            -webkit-transform: scale(1);
+            color: #711bc6;
+          }
+        }
+        .fa-linkedin {
+          -webkit-transform: scale(0.8);
+          -webkit-transition-duration: 0.5s;
+          &:hover{
+            -webkit-transform: scale(1);
+            color: $primary;
+          }
+        }
+        .fa-envelope-square {
+            -webkit-transform: scale(0.8);
+            -webkit-transition-duration: 0.5s;
+            &:hover{
+              -webkit-transform: scale(1);
+              color: #fb3958;
+            }
+          }
+      }
+
+}

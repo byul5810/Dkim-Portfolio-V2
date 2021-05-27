@@ -1,0 +1,108 @@
+.experience {
+    padding: 70px 0;
+    .row {
+        justify-content: center;
+    }
+    .timeline-header {
+        h2 {
+            color: white;
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+            letter-spacing: 0.3em;
+            font-weight: 700;
+            padding-bottom: 30px;
+            font-size: 16px;
+        }
+    }
+    .timeline-container {
+        position: relative;
+        margin-bottom: 30px;
+        &:before {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 4px;
+            background: white;
+            top: 20px;
+            bottom: 20px;
+            margin-left: 13px;
+            @media only screen and (max-width: 768px) {
+                display: none;
+            }
+        }
+    }
+
+    .timeline {
+        position: relative;
+        margin: 5px auto 10px auto;
+        clear: both;
+        .timeline-inner {
+            position: relative;
+            margin-left: -20px;
+        }
+        .timeline-icon {
+            display: block;
+            width: 40px;
+            height: 40px;
+            background: #2c98f0;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            border-radius: 50%;
+            text-align: center;
+            -moz-box-shadow: 0 0 0 5px white;
+            -webkit-box-shadow: 0 0 0 5px white;
+            box-shadow: 0 0 0 5px white;
+            line-height: 40px;
+            float: left;
+            .fa-address-card {
+                color: #fff;
+            }
+            @media only screen and (max-width: 768px) {
+                display: none;
+            }
+        }
+        .timeline-second {
+            background: #711bc6;
+        }
+        .timeline-third {
+            background: #fb3958;
+        }
+        .timeline-label {
+            position: relative;
+            background: white;
+            padding: 1.5em;
+            margin-left: 60px;
+            @media only screen and (max-width: 768px) {
+                margin-left: 20px;
+            }
+            &:after {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 9px 9px 9px 0;
+                border-color: transparent white transparent transparent;
+                left: 0;
+                top: 10px;
+                margin-left: -9px;
+            }
+            .timeline-title {
+                font-size: 22px;
+                span {
+                    padding-left: 10px;
+                    opacity: .4;
+                    font-size: 16px;
+                }
+            }
+        }
+        .label-second .timeline-link {
+            color: #711bc6;
+        }
+        .label-third .timeline-link {
+            color: #fb3958;
+        }
+    }
+}

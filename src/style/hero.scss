@@ -1,0 +1,116 @@
+@import './App.scss';
+
+  .hero {
+    background: linear-gradient(to right, transparentize($primary, .1) 0%, transparentize($primary, .62) 30%, #fff0 43%, #fff0 100%);
+    display: inline-block;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    .hero-content {
+        padding-top: 170px;
+        padding-left: 100px;
+        @media only screen and (max-width: 575px) {
+          padding-top: 150px;
+          padding-left: 50px;
+        }
+        color: white;
+    }
+    .hero-text-wrapper {
+      animation: ImageOpacity 1s linear;
+      -webkit-animation-timing-function: linear;
+      -webkit-animation-duration: 1s;
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  }
+  .diagonal-hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background: #2b5876;
+    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
+    background: linear-gradient(to right, #4e4376, #2b5876); 
+    z-index: -1;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  @function stars($n) {
+    $value: '#{random(2000)}px #{random(2000)}px #fff';
+    @for $i from 2 through $n {
+      $value: '#{$value} , #{random(2000)}px #{random(2000)}px #fff';
+    }
+    @return unquote($value);
+  }
+  $stars-small: stars(700);
+  $stars-medium: stars(200);
+  $stars-big: stars(100);
+  .stars {
+    z-index: -1;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transition: opacity 1s ease-in-out;
+  }
+  .stars > .small {
+    width: 1px;
+    height: 1px;
+    background: transparent;
+    box-shadow: $stars-small;
+    animation: starsAnimation 50s linear infinite;
+    &:after {
+      content: " ";
+      position: absolute;
+      top: 2000px;
+      width: 1px;
+      height: 1px;
+      background: transparent;
+      box-shadow: $stars-small;
+    }
+  }
+  .stars > .medium {
+    width: 2px;
+    height: 2px;
+    background: transparent;
+    box-shadow: $stars-medium;
+    animation: starsAnimation 100s linear infinite;
+    &:after {
+      content: " ";
+      position: absolute;
+      top: 2000px;
+      width: 2px;
+      height: 2px;
+      background: transparent;
+      box-shadow: $stars-medium;
+    }
+  }
+  .stars > .big {
+    width: 3px;
+    height: 3px;
+    background: transparent;
+    box-shadow: $stars-big;
+    border-radius: 100%;
+    animation: starsAnimation 150s linear infinite;
+    &:after {
+      content: " ";
+      position: absolute;
+      top: 2000px;
+      width: 3px;
+      height: 3px;
+      background: transparent;
+      box-shadow: $stars-big;
+      border-radius: 100%;
+    }
+  }
+  @keyframes starsAnimation {
+    from {
+      transform: translateY(-2000px);
+    }
+    to {
+      transform: translateY(0px);
+    }
+  }

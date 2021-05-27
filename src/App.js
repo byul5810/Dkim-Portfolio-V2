@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import './style/App.scss';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import SubHero from './components/SubHero';
+import Profile from './components/Profile';
+import Experience from './components/Experience';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+library.add(fab, fas)
+
+
+class App extends Component {
+  state = { displayBio: false };
+
+  toggleDisplayBio = () => {
+    this.setState({ displayBio: !this.state.displayBio });
+  }
+
+  render() {
+    return (
+      <div>
+          <Header />
+          <Hero />
+          <SubHero />
+          <Profile />
+          <Projects />
+          <Experience />
+          <Skills />
+          <Footer />
+      </div>
+    )
+  }
 }
-
 export default App;
