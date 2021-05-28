@@ -1,5 +1,4 @@
-##Portfolio-Website
-* Deokgwan Kim's Portfolio websitre
+### `Deokgwan's Portfolio Website`
 * Try on http://www.dkimportfolio.com/
 
 ### `yarn start`
