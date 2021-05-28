@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import mobile_project_1 from '../assets/mobile_project_1.png';
 import mobile_project_2 from '../assets/mobile_project_2.png';

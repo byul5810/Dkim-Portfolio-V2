@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
-import Project_Carousel from './Project_Carousel'
-import Mobile_Project_Carousel from './Mobile_Project_Carousel'
+import ProjectCarousel from './Project_Carousel'
+import MobileProjectCarousel from './Mobile_Project_Carousel'
 import Arduino from '../assets/arduino.jpg'
 import Ecommerce from '../assets/ecommerce.jpeg'
 import '../style/projects.scss';
 
 class Projects extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
     return (
     <section className="projects" id="projects">
@@ -20,12 +16,12 @@ class Projects extends Component {
               </div>
               <div class="row">
                 <div className="card col-md-5 px-0">
-                <Project_Carousel />
+                <ProjectCarousel />
                 </div>
                 <div className="project-content offset-md-1 col-md-6">
                     <h2>Website Template Build</h2>
                     <p>Tons of website build experience with an excellent sense of design. I provide the most high-quality website.
-                      I prioritize writing well-organized code and using modern programming methods to create a high-quality foundation. 
+                      I prioritize writing well-organized code and using modern programming methods to create a high-quality foundation.
                       I write automated tests to make sure each code is as bug-free and high quality as possible.
                       I always try to use an efficient and creative solution</p>
                 </div>
@@ -39,7 +35,7 @@ class Projects extends Component {
                     </p>
                 </div>
                 <div className="card mobile-project offset-md-2 col-md-3 px-0">
-                <Mobile_Project_Carousel />
+                <MobileProjectCarousel />
                 </div>
                 <div className="project-content mobile col-md-6 d-md-none d-block">
                     <h2>Mobile Friendly + SEO optimization</h2>
@@ -59,7 +55,7 @@ class Projects extends Component {
                 </div>
                 <div className="project-content offset-md-1 col-md-6">
                     <h2>Temp and humidity App with Arduino</h2>
-                    <p>Developed a device that contains a temperature and humitity sensor which connects to mobile 
+                    <p>Developed a device that contains a temperature and humitity sensor which connects to mobile
                        device through Bluetooth and displaying a temperature and humitity in the mobile device.
                        The device is capable of displaying the temperature and humidity data of the current location to the mobile device using.
                     </p>

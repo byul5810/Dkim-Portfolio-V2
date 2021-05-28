@@ -1,5 +1,4 @@
 import React from 'react';
-import image from '../assets/responsive.png'
 import creative from '../assets/idea.png'
 import programmer from '../assets/programing.png'
 import teamwork from '../assets/teamwork.png'

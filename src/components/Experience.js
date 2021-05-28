@@ -24,7 +24,7 @@ const Experience = () => (
                                     <li>Troubleshoot, debug and upgrade existing app</li>
                                     <li>Work with other teams to troubleshoot defects or to get clarificationn on requests</li>
                                 </ul>
-                                <p>Website:&nbsp;<a className="timeline-link" target="_blank" href="https://legalfit.com/">https://legalfit.com/</a></p>
+                                <p>Website:&nbsp;<a className="timeline-link" rel="noreferrer" target="_blank" href="https://legalfit.com/">https://legalfit.com/</a></p>
                             </div>
                         </div>
                     </article>

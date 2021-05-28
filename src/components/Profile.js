@@ -24,13 +24,13 @@ const AboutMe = () => (
                         Bachelor Degree in Computer Science and a minor in Information Systems. Now, I am honored
                         to not only be an American but also a US Army Soldier.</p>
                         <div className="profile-favicon">
-                            <a className="icon github" href="https://github.com/byul5810" target="_blank" rel="noopener">
+                            <a className="icon github" href="https://github.com/byul5810"  target="_blank" rel="noreferrer">
                                 <FontAwesomeIcon icon={['fab', 'github']} size="3x"/>
                             </a>
-                            <a className="icon linkedin" href="https://www.linkedin.com/in/deokgwan-kim/" target="_blank" rel="noopener">
+                            <a className="icon linkedin" href="https://www.linkedin.com/in/deokgwan-kim/" target="_blank" rel="noreferrer">
                                 <FontAwesomeIcon icon={['fab', 'linkedin']} size="3x"/>
                             </a>
-                            <a className="icon email" href="mailto: byul5810@gmail.com" target="_blank" rel="noopener">
+                            <a className="icon email" href="mailto: byul5810@gmail.com" target="_blank" rel="noreferrer">
                                 <FontAwesomeIcon icon={['fas', 'envelope-square']} size="3x"/>
                             </a>
                         </div>

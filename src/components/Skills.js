@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import image from '../assets/bg.jpeg'
 import '../style/skills.scss';
 
 class CircularProgressBar extends Component {
@@ -60,9 +59,6 @@ class CircularProgressBar extends Component {
   };
 
 class Skills extends Component {
-    constructor(props) {
-        super(props);
-    }
     state = {
         displayBio: 'front',
     };
@@ -82,7 +78,7 @@ class Skills extends Component {
               </div>
             </div>
               {(() => {
-                if (this.state.displayBio == 'front') {
+                if (this.state.displayBio === 'front') {
                   return (
                     <div className="row">
                       <div></div>
@@ -159,7 +155,7 @@ class Skills extends Component {
                       </div>
                     </div>
                   )
-                } else if (this.state.displayBio == 'back') {
+                } else if (this.state.displayBio === 'back') {
                   return (
                     <div className="row">
                       <div className="skill-content back col-md-3 col-sm-6">
