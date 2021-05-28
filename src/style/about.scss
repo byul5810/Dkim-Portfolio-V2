@@ -1,7 +1,7 @@
 @import './App.scss';
 
 .profile {
-    color: white;
+    color: $white;
     padding-top: 60px;
     padding-bottom: 60px;
     .image-wrapper {
@@ -35,7 +35,7 @@
     .github, .linkedin, .email {
         display: inline;
         margin-right: 15px;
-        color: white;
+        color: $white;
     }
     .icon{
         &:hover{

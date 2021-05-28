@@ -13,7 +13,7 @@
           padding-top: 150px;
           padding-left: 50px;
         }
-        color: white;
+        color: $white;
     }
     .hero-text-wrapper {
       animation: ImageOpacity 1s linear;
@@ -38,9 +38,9 @@
   }
 
   @function stars($n) {
-    $value: '#{random(2000)}px #{random(2000)}px #fff';
+    $value: '#{random(2000)}px #{random(2000)}px $white';
     @for $i from 2 through $n {
-      $value: '#{$value} , #{random(2000)}px #{random(2000)}px #fff';
+      $value: '#{$value} , #{random(2000)}px #{random(2000)}px $white';
     }
     @return unquote($value);
   }

@@ -1,3 +1,5 @@
+@import './App.scss';
+
 .header {
     .custom-nav {
         height: 70px;
@@ -6,13 +8,13 @@
             margin-left: 75px;
         }
         .nav-link {
-            color: #fff;
+            color: $white;
             font-weight: bold;
             border-bottom: 1px solid transparent;
             margin-right: 15px;
             &:hover {
                 transition: .5s;
-                border-bottom-color: #fff;
+                border-bottom-color: $white;
             }
         }
     }
@@ -27,7 +29,7 @@
             top: 100%;
             width: 100%;
             max-height: 1000px;
-            background: #fff;
+            background: $white;
             padding: 0 15px;
             display: flex !important;
             .navbar-nav {
@@ -39,7 +41,7 @@
         }
         .navbar-toggler {
             display: block;
-            background-color: #fff;
+            background-color: $white;
             border-radius: 0;
             padding: .25rem .25rem;
             .navbar-toggler-icon {
