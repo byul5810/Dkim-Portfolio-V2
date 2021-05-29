@@ -87,7 +87,7 @@ class Skills extends Component {
                       <div></div>
                       <div></div>
                       <div></div>
-                      <div className="skill-content web col-md-3 col-sm-6">
+                      <div className="skill-content web col-md-3 col-6">
                         <div>
                             <CircularProgressBar
                             strokeWidth="5"
@@ -98,7 +98,7 @@ class Skills extends Component {
                           HTML
                         </div>
                       </div>
-                      <div className="skill-content web col-md-3 col-sm-6">
+                      <div className="skill-content web col-md-3 col-6">
                           <div>
                               <CircularProgressBar
                               strokeWidth="5"
@@ -109,7 +109,7 @@ class Skills extends Component {
                             CSS
                         </div>
                       </div>
-                      <div className="skill-content web col-md-3 col-sm-6">
+                      <div className="skill-content web col-md-3 col-6">
                           <div>
                               <CircularProgressBar
                               strokeWidth="5"
@@ -120,7 +120,7 @@ class Skills extends Component {
                             JAVACRIPT
                           </div>
                       </div>
-                      <div className="skill-content web col-md-3 col-sm-6">
+                      <div className="skill-content web col-md-3 col-6">
                           <div>
                               <CircularProgressBar
                               strokeWidth="5"
@@ -131,7 +131,7 @@ class Skills extends Component {
                             BOOTSTRAP
                           </div>
                       </div>
-                      <div className="skill-content web col-md-3 col-sm-6">
+                      <div className="skill-content web col-md-3 col-6">
                           <div>
                               <CircularProgressBar
                               strokeWidth="5"
@@ -142,7 +142,7 @@ class Skills extends Component {
                             VUE
                           </div>
                       </div>
-                      <div className="skill-content web col-md-3 col-sm-6">
+                      <div className="skill-content web col-md-3 col-6">
                           <div>
                               <CircularProgressBar
                               strokeWidth="5"
@@ -158,7 +158,7 @@ class Skills extends Component {
                 } else if (this.state.displayBio === 'back') {
                   return (
                     <div className="row">
-                      <div className="skill-content back col-md-3 col-sm-6">
+                      <div className="skill-content back col-md-3 col-6">
                         <div>
                             <CircularProgressBar
                             strokeWidth="5"
@@ -169,7 +169,7 @@ class Skills extends Component {
                           PYTHON
                         </div>
                       </div>
-                      <div className="skill-content back col-md-3 col-sm-6">
+                      <div className="skill-content back col-md-3 col-6">
                           <div>
                               <CircularProgressBar
                               strokeWidth="5"
@@ -180,7 +180,7 @@ class Skills extends Component {
                             DAJNGO
                           </div>
                       </div>
-                      <div className="skill-content back col-md-3 col-sm-6">
+                      <div className="skill-content back col-md-3 col-6">
                           <div>
                               <CircularProgressBar
                               strokeWidth="5"
@@ -191,7 +191,7 @@ class Skills extends Component {
                             JAVA
                           </div>
                       </div>
-                      <div className="skill-content back col-md-3 col-sm-6">
+                      <div className="skill-content back col-md-3 col-6">
                           <div>
                               <CircularProgressBar
                               strokeWidth="5"
@@ -202,7 +202,7 @@ class Skills extends Component {
                             ANDROID
                           </div>
                       </div>
-                      <div className="skill-content back col-md-3 col-sm-6">
+                      <div className="skill-content back col-md-3 col-6">
                           <div>
                               <CircularProgressBar
                               strokeWidth="5"
@@ -213,7 +213,7 @@ class Skills extends Component {
                             C++
                           </div>
                       </div>
-                      <div className="skill-content back col-md-3 col-sm-6">
+                      <div className="skill-content back col-md-3 col-6">
                           <div>
                               <CircularProgressBar
                               strokeWidth="5"
