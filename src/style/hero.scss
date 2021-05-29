@@ -38,9 +38,9 @@
   }
 
   @function stars($n) {
-    $value: '#{random(2000)}px #{random(2000)}px $white';
+    $value: '#{random(2000)}px #{random(2000)}px #fff';
     @for $i from 2 through $n {
-      $value: '#{$value} , #{random(2000)}px #{random(2000)}px $white';
+      $value: '#{$value} , #{random(2000)}px #{random(2000)}px #fff';
     }
     @return unquote($value);
   }
