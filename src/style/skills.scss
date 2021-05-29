@@ -23,6 +23,10 @@ $light_primary: #b41847;
       margin-right: 5px;
       border: 2px solid $light_primary;
       color: $light_primary;
+      &:not(:disabled):not(.disabled):active,
+      &:not(:disabled):not(.disabled).active {
+        border-color: $light_primary;
+      }
       &:not(:disabled):not(.disabled).active:focus {
         box-shadow: unset;
       }
@@ -39,7 +43,7 @@ $light_primary: #b41847;
     .back .skill-header {
       border-color: #711bc6;
       .btn-primary {
-        border-color: #711bc6;
+        border-color: #711bc6 !important;
         color: #711bc6;
         &.active {
           background-color: #711bc6 !important;
