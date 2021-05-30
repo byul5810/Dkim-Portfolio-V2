@@ -177,7 +177,7 @@ class Skills extends Component {
                               percentage="85"/>
                           </div>
                           <div className="skill-language">
-                            DAJNGO
+                            DJANGO
                           </div>
                       </div>
                       <div className="skill-content back col-md-3 col-6">
