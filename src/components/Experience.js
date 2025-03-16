@@ -10,6 +10,23 @@ const Experience = () => (
                     <h2>TIMELINE</h2>
                 </div>
                 <div className="timeline-container">
+                <article className="timeline col-12">
+                        <div className="timeline-inner">
+                            <div className="timeline-icon timeline-third">
+                                <FontAwesomeIcon icon={['fas', 'address-card']}/>
+                            </div>
+                            <div className="timeline-label">
+                                <h2 className="timeline-title">Rakuten Collective Voice <span>Nov, 2021 - Present</span></h2>
+                                <p><strong>Frontend Engineer</strong></p>
+                                <ul>
+                                    <li>Leading front-end development within my team, responsible for architecture, implementation, and performance optimization.</li>
+                                    <li>Successfully led the migration from AngularJS to Angular, significantly improving performance, maintainability, and scalability.</li>
+                                    <li>Actively contributing across all frontend repositories, handling development, debugging, architecture, and feature implementation.</li>
+                                </ul>
+                                <p>Website:&nbsp;<a className="timeline-link" rel="noreferrer" target="_blank" href="https://legalfit.com/">https://legalfit.com/</a></p>
+                            </div>
+                        </div>
+                    </article>
                     <article className="timeline col-12">
                         <div className="timeline-inner">
                             <div className="timeline-icon">
@@ -41,22 +58,6 @@ const Experience = () => (
                                     <li>Learning leadership skill to execute order</li>
                                     <li>Maintain and repair electrical/fuel systems, pumps, waterpurification systems</li>
                                     <li>Service internal combustion engine ignition/fuel/cooling/electrical systems</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </article>
-                    <article className="timeline col-12">
-                        <div className="timeline-inner">
-                            <div className="timeline-icon timeline-third">
-                                <FontAwesomeIcon icon={['fas', 'address-card']}/>
-                            </div>
-                            <div className="timeline-label label-third">
-                                <h2 className="timeline-title">Lunchidny <span>Jan, 2018 - Feb, 2018</span></h2>
-                                <p><strong>Web Developer Intern</strong></p>
-                                <ul>
-                                    <li>Maintain detailed requirements/design/technical documentation for new and existing components</li>
-                                    <li>Maintain and modify full-stack web applications(PHP, HTML, CSS, JS, Adobe)</li>
-                                    <li>Performs other job-related duties and responsibilities</li>
                                 </ul>
                             </div>
                         </div>

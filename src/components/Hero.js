@@ -13,9 +13,7 @@ const Hero = () => (
         <div className="col-md-7 hero-content">
             <div className="hero-text-wrapper">
                 <h2 className="h1">HELLO, WORLD!</h2>
-                <h1>A Creative Full Stack Developer in Kansas</h1>
-                <p>Interested in Working Together? Check out my Resume</p>
-                <a className="btn btn-primary" rel="noreferrer" href="https://drive.google.com/file/d/1QbfL_JGXB7TkNYpbiJ8r08T2HCraN1t7/view?usp=sharing" target="_blank">DOWNLOAD CV</a>
+                <h1>A Creative Full Stack Developer in Texas</h1>
             </div>
         </div>
     </div>
