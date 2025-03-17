@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ProjectCarousel from './Project_Carousel'
 import MobileProjectCarousel from './Mobile_Project_Carousel'
 import Angular from '../assets/angular.png'
 import Cross from '../assets/cross.png'
